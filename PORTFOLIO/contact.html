@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <title>Mon portfolio</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+  <body class="sub_page">
+    <div class="hero_area">
+      <div class="hero_bg_box">
+        <div class="img-box">
+          <img src="images/OIP.jpg" alt="">
+        </div>
+      </div>
+  
+      <header class="header_section">
+        <div class="header_top">
+          <div class="container-fluid">
+            <div class="contact_link-container">
+              <a href="" class="contact_link1">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>Lyon</span>
+              </a>
+              <a href="" class="contact_link2">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>Call : +33 7 69 77 34 71</span>
+              </a>
+              <a href="" class="contact_link3">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>walid.hadak@ellabts.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header_bottom">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+              <a class="navbar-brand" href="index.html">
+                <span>WH</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class=""></span>
+              </button>
+
+            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+              <ul class="navbar-nav  ">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="stage.html"> Stage </a>
+                </li>
+                <li class="nav-item active">
+                  <li class="nav-item active"><a class="nav-link" href="contact.html">Contactez-moi</a></li>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <section class="contact_section layout_padding cool-contact">
+    <div class="contact_bg_box">
+      <div class="img-box">
+        <img src="images/contact-bg.jpg" alt="fond contact">
+      </div>
+    </div>
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 class="contact-title">
+          Contactez-moi
+        </h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form action="#" class="glass-form">
+            <div class="contact_form-container">
+              <div class="form-group">
+                <input type="text" placeholder="Nom complet" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Adresse e-mail" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Numéro de téléphone" />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Votre message" rows="5" required></textarea>
+              </div>
+              <div class="btn-box text-center">
+                <button type="submit" class="send-btn">
+                  ✉️ Envoyer le message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <style>
+    .cool-contact {
+      position: relative;
+      padding: 60px 0;
+      background: linear-gradient(to bottom right, #1a1a1a, #333333);
+      color: white;
+    }
+  
+    .cool-contact .img-box img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      opacity: 0.2;
+      filter: blur(5px);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+  
+    .glass-form {
+      position: relative;
+      z-index: 2;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      color: #fff;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .contact-title {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      font-weight: bold;
+      color: #ffffff;
+      z-index: 2;
+      position: relative;
+    }
+  
+    .form-group {
+      margin-bottom: 20px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 15px 20px;
+      background: rgba(255, 255, 255, 0.08);
+      border: none;
+      border-radius: 12px;
+      color: white;
+      font-size: 1rem;
+      outline: none;
+      transition: background 0.3s ease;
+    }
+  
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  
+    .form-group input:focus,
+    .form-group textarea:focus {
+      background: rgba(255, 255, 255, 0.15);
+    }
+  
+    .send-btn {
+      background-color: #00bcd4;
+      color: #fff;
+      padding: 12px 30px;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+    .send-btn:hover {
+      background-color: #0097a7;
+    }
+  </style>
+
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      &copy; <span id="currentYear"></span> All Rights Reserved. Design by
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
